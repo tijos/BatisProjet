@@ -1,2 +1,0 @@
-# BatisProjet
-Gestion des chantiers

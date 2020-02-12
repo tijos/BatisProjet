@@ -1,0 +1,65 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#mniOpen > .label{
+}
+#mniOpen .accelerator-text{
+    -fx-graphic: none;
+}
+
+#btnSave {
+    -fx-background-image: url("images/save.png");
+    -fx-background-size: 30 18;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:left;
+}
+
+#fancytext {
+		    -fx-font: 100px Tahoma;
+		    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);
+		    -fx-stroke: black;
+		    -fx-stroke-width: 1;
+		}
+		
+.text-field.error {  
+ -fx-border-color: red ;  
+ -fx-border-width: 1px ;  
+}
+
+input[type="radio"] + label span {
+  background: url("images/radioNot_Checked.png") -105px center no-repeat;
+}
+
+.checked2{
+    background: url("images/radio_Ckecked.png") -153px center no-repeat;
+}	
+
+input[type="checkbox"] + label span {
+  background: url("images/unCheckedBox.png") -105px center no-repeat;
+}
+
+.checked{
+    background: url("images/checkedBox.png") -153px center no-repeat;
+}	
+
+.default-color0.chart-area-symbol { -fx-background-color: #e9967a, #ffa07a; }
+.default-color1.chart-area-symbol { -fx-background-color: #f0e68c, #fffacd; }
+.default-color2.chart-area-symbol { -fx-background-color: #dda0dd, #d8bfd855; }
+ 
+.default-color0.chart-series-area-line { -fx-stroke: #e9967a; }
+.default-color1.chart-series-area-line { -fx-stroke: #f0e68c; }
+.default-color2.chart-series-area-line { -fx-stroke: #dda0dd; }
+ 
+.default-color0.chart-series-area-fill { -fx-fill: #ffa07a55; }
+.default-color1.chart-series-area-fill { -fx-fill: #fffacd55; }
+.default-color2.chart-series-area-fill { -fx-fill: #d8bfd855; }
+
+.myDialog > *.label.content{
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.myDialog:header *.header-panel *.label{
+    -fx-font-size: 16px;
+ 
+    -fx-fill: #292929;
+}
+	
