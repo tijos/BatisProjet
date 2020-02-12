@@ -1,0 +1,7 @@
+/*C3*/SET SCHEMA PUBLIC
+CONNECT USER SA
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+\u000a    alter table Employe_Role_Chantier \u000a        drop constraint UK_puxinqknc8f717txp2vl946ea
+\u000a    alter table Employe_Role_Chantier \u000a        add constraint UK_puxinqknc8f717txp2vl946ea  unique (ID_EMPLOYE, ID_CHANTIER, ID_ROLE)
+SET AUTOCOMMIT FALSE
